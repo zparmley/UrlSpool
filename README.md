@@ -26,7 +26,7 @@ The syntax is limited to var, if var=, and if var !=, which has been adequate
 
 ## Example:
 <pre>
-php UrlSpool.php 'http://example.com/$0%3C$0!=flush~/$1%3C$0=set~/$2>>' '[["get", "set", "flush"], ["mek", "wek", "bek"], [1, 2, 3]]' 10
+php UrlSpool.php 'http://example.com/$0&lt;$0!=flush~/$1&lt;$0=set~/$2>>' '[["get", "set", "flush"], ["mek", "wek", "bek"], [1, 2, 3]]' 10
 </pre>
 
 could produce:
