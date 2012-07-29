@@ -25,14 +25,6 @@ if (is_null($lists) === true) {
 	die('datalists must be valid json, did not decode');
 }
 
-// var_dump($argv, $pattern, $lists);
-// die();
-
-// $lists = array(array('get', 'set', 'flush'), array('mek', 'wek', 'bek'), array(1, 2, 3));
-// $pattern = 'http://kvstore.com/$0<$0!=flush~/$1<$0=set~/$2>>';
-
-
-// 3.6 seconds to build 100000 urls
 for ($i = 0; $i < $outcount; $i++) {
 	if ($i !== 0) {
 		echo "\n";
